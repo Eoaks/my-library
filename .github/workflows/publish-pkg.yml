@@ -77,8 +77,8 @@ jobs:
       - name: Linting
         run: yarn lint
 
-      - name: Prettier
-        run: yarn format
+      # - name: Prettier
+      #   run: yarn format
 
       - name: Unit tests
         run: yarn test
